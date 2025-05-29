@@ -1,0 +1,40 @@
+{
+  "name": "@agentis/trading-view-mcp",
+  "version": "1.0.0",
+  "description": "TradingView MCP Server - Complete real-time market data integration",
+  "main": "trading-view-mcp-server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node trading-view-mcp-server.js",
+    "dev": "node --inspect trading-view-mcp-server.js",
+    "test": "node demo-trading-view-mcp.js"
+  },
+  "keywords": [
+    "mcp",
+    "tradingview",
+    "market-data",
+    "real-time",
+    "websocket",
+    "charting",
+    "trading",
+    "ai-assistant"
+  ],
+  "author": "Agentis Development Team",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0",
+    "ws": "^8.18.0",
+    "node-fetch": "^3.3.2",
+    "yahoo-finance2": "^2.11.3",
+    "finnhub": "^1.2.18",
+    "alpha-vantage": "^2.3.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "nodemon": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+} 
